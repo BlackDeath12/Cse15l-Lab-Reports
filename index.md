@@ -1,1 +1,3 @@
-Greetings from the world beyond!
+- ##Install VSCode
+- ##Connect to server
+- ##Try some commands 
