@@ -1,3 +1,6 @@
-- ##Install VSCode
-- ##Connect to server
-- ##Try some commands 
+- Install VSCode
+-------------------
+- Connect to server
+-------------------
+- Try some commands 
+-------------------
