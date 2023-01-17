@@ -1,3 +1,5 @@
+## How to Connect to the Class Server
+
 - [Install VSCode](#step-1)
 -------------------
 - [Install Git](#step-2)
