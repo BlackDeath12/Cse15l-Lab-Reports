@@ -4,7 +4,7 @@
 -----------------------
 - [Connect to server](#step-3)
 -------------------
-- Try some commands 
+- [Try some commands](#step-4) 
 -------------------
 
 
@@ -13,13 +13,17 @@ Step 1
 ------
 To install VSCode simply go to https://code.visualstudio.com/ and follow the website directions. 
 After the install is complete, open VSCode on your computer and you should see something like this:
+
 ![Image](InstallVSCode.png)
+
 
 Step 2
 ------
 After you've installed VSCode, go to https://gitforwindows.org/ and follow the directions of the website to install Git. 
 This program will allow you to use the bash terminal and remotely access a server.
+
 ![Image](InstallGit.png)
+
 
 Step 3
 ------
@@ -28,6 +32,13 @@ Then, open the VSCode terminal by clicking and holding "Ctrl" + "Shift" + "`" an
 "ssh cs15lwi23zz@ieng6.ucsd.edu" 
 Make sure to substitute "zz" with the last three letters of your @ieng username.
 Enter your password when prompted.
+
 (Your username and password can be found in this [link](https://sdacs.ucsd.edu/~icc/index.php))
 You should see a message like this when connection is stablished:
+
 ![Image](ssh-terminal.png)
+
+Step 4
+------
+Finally, try some commands on this list and check that everything is working correctly. 
+To logout, type "exit" or use "Ctrl + D"
