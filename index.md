@@ -26,6 +26,8 @@ Step 3
 After Git is installed, follow the instructions in this [post](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to install the Bash terminal.
 Then, open the VSCode terminal by clicking and holding "Ctrl" + "Shift" + "`" and insert the following:
 "ssh cs15lwi23zz@ieng6.ucsd.edu" 
-Make sure to substitute "zz" with the last three letters of your @ieng username. 
-(Your username can be found thin this [link](https://sdacs.ucsd.edu/~icc/index.php))
+Make sure to substitute "zz" with the last three letters of your @ieng username.
+Enter your password when prompted.
+(Your username and password can be found thin this [link](https://sdacs.ucsd.edu/~icc/index.php))
+You should see a message like this when connection is stablished. 
 ![Image](ssh-terminal.png)
