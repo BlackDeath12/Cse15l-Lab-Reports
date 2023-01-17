@@ -1,11 +1,29 @@
 - [Install VSCode](#step-1)
 -------------------
-- Connect to server
+- [Install Git](#step-2)
+-----------------------
+- [Connect to server](#step-3)
 -------------------
 - Try some commands 
 -------------------
 
+
+
 Step 1
 ------
-To install VSCode simply go to https://code.visualstudio.com/ and follow the website directions. After the install is complete, open VSCode on your computer and you should see something like this:
+To install VSCode simply go to https://code.visualstudio.com/ and follow the website directions. 
+After the install is complete, open VSCode on your computer and you should see something like this:
 ![Image](InstallVSCode.png)
+
+Step 2
+------
+After you've installed VSCode, go to https://gitforwindows.org/ and follow the directions of the website to install Git. 
+This program will allow you to use the bash terminal and remotely access a server.
+![Image](InstallGit.png)
+
+Step 3
+------
+After Git is installed, follow the instructions in this [post](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to install the Bash terminal.
+Then, open the VSCode terminal by clicking and holding "Ctrl" + "Shift" + "`" and insert the following:
+"ssh cs15lwi23zz@ieng6.ucsd.edu" 
+Make sure to substitute "zz" with the last three letters of your @ieng username. 
