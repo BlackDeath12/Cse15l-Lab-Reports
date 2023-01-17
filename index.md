@@ -30,3 +30,4 @@ Make sure to substitute "zz" with the last three letters of your @ieng username.
 Enter your password when prompted.
 (Your username and password can be found thin this [link](https://sdacs.ucsd.edu/~icc/index.php))
 You should see a message like this when connection is stablished. 
+![Image](ssh-terminal.png)
