@@ -40,5 +40,5 @@ You should see a message like this when connection is stablished:
 
 Step 4
 ------
-Finally, try some commands on this list and check that everything is working correctly. 
+Finally, try some commands on this [list](https://blackdeath12.github.io/cse15l-lab-reports/commands-list.html) and check that everything is working correctly. 
 To logout, type "exit" or use "Ctrl + D"
