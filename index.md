@@ -27,3 +27,5 @@ After Git is installed, follow the instructions in this [post](https://stackover
 Then, open the VSCode terminal by clicking and holding "Ctrl" + "Shift" + "`" and insert the following:
 "ssh cs15lwi23zz@ieng6.ucsd.edu" 
 Make sure to substitute "zz" with the last three letters of your @ieng username. 
+(Your username can be found thin this [link](https://sdacs.ucsd.edu/~icc/index.php))
+![Image](ssh-terminal.png)
