@@ -13,7 +13,7 @@
 
 Step 1
 ------
-To install VSCode simply go to https://code.visualstudio.com/ and follow the website directions. 
+To install VSCode simply go [here](https://code.visualstudio.com/) and follow the website directions. 
 After the install is complete, open VSCode on your computer and you should see something like this:
 
 ![Image](InstallVSCode.png)
@@ -21,7 +21,7 @@ After the install is complete, open VSCode on your computer and you should see s
 
 Step 2
 ------
-After you've installed VSCode, go to https://gitforwindows.org/ and follow the directions of the website to install Git. 
+After you've installed VSCode, go to [Git](https://gitforwindows.org/) and follow the directions of the website to install Git. 
 This program will allow you to use the bash terminal and remotely access a server.
 
 ![Image](InstallGit.png)
@@ -51,6 +51,8 @@ cd {directory}: change your current working directory for a different one.
 cd ~: go to the main directory.
 
 ls: list the files inside the working directory.
+
+ls -a: will list all files, including hidden files. 
 
 ls {directory}: list the files inside a specified directory.
 
