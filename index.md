@@ -45,11 +45,17 @@ Step 4
 Finally, try some commands on this [list](https://blackdeath12.github.io/cse15l-lab-reports/commands-list.html) and check that everything is working correctly. 
 To logout, type "exit" or use "Ctrl + D"
 ![Image](commands-ssh.png)
+
 cd {directory}: change your current working directory for a different one.
+
 cd ~: go to the main directory.
+
 ls: list the files inside the working directory.
+
 ls {directory}: list the files inside a specified directory.
+
 cp {directory}: copy a file.
+
 cat {directory}: reads the directory's contents and returns it as output.
 
 
