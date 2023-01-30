@@ -48,6 +48,8 @@ To logout, type "exit" or use "Ctrl + D"
 
 cd {directory}: change your current working directory for a different one.
 
+cd ..: will go back one directory, e.g. /home/kitchen/door will go to /home/kitchen after running cd ..
+
 cd ~: go to the main directory.
 
 ls: list the files inside the working directory.
