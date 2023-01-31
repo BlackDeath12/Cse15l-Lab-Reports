@@ -111,7 +111,7 @@ Input that doesn't induce a failure for buggy program:
 ```
 
 Output for failure input:
-![Image](ArrayTestExample1.png)
+![Image](ArrayExample1.png)
 
 Output for non-failure input:
 ![Image](ArrayTestExample2.png)
