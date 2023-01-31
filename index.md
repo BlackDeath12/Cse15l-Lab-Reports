@@ -66,7 +66,7 @@ cat {directory}: reads the directory's contents and returns it as output.
 ## StringServer
 
 Code for the server:
-!{Image](StringServerImg.png)
+![Image](StringServerImg.png)
 
 In this first image we enter the if-section of the code that deals with the path "add-messages". After the query is written, the server seperates the string inside the search box, splits it on every "=" sign, and stores the parameters inside an array. After that, the parameters are appendend into a formated string which is later returned as output. 
 ![Image](ServerExample1.png)
