@@ -9,7 +9,11 @@
 - [Try some commands](#step-4) 
 -------------------
 
-
+## Servers and Bugs (Week 3)
+- [String Server](#Part1)
+--------------------------
+- [Bugs](#Part2)
+-----------------
 
 Step 1
 ------
@@ -154,6 +158,13 @@ static double averageWithoutLowest(double[] arr) {
     return sum / (arr.length - numbersEliminated);
   }
 ```
+
+The problem with the code from before was that it failed to consider the possibility of multiple numbers being the lowest. Therefore, it calculated the average as if only one element was removed, when in reality there were multiple numbers ignored. To fix the bug, we simply added a counter for numbers eliminated and substracted that number to the total number of elements in the array (arr.length). 
+
+Part 3
+------
+
+I've learned multiple things during week 2 and 3. Firstly, I didn't know how to make a local or external server using java, I've had only used GoogleCloud before. In addition, I didn't know what exactly a query was and how a server could respond to one. Secondly, I've gained a better understanding on how to use JUnit tests and how they can be useful to debugging. 
 
 
 
