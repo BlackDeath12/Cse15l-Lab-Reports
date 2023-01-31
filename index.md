@@ -65,6 +65,11 @@ cat {directory}: reads the directory's contents and returns it as output.
 
 ## StringServer
 
+
+
+Part 1
+------
+
 Code for the server:
 
 ![Image](StringServerImg.png)
@@ -76,4 +81,10 @@ In this first image we enter the if-section of the code that deals with the path
 After the second query is made, the new phrase is appended in the array similarly to the first one. Then, the last element in the array is again appended into the formated string and returned as output. 
 
 ![Image](ServerExample2.png)
+
+For both examples, the method handleRequest is called, along with the equals(), add(), append(), format(), and toString() methods that help comparing, storing, and returning the strings.
+
+
+Part 2
+-------
 
