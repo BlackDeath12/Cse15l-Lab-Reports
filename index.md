@@ -10,9 +10,9 @@
 -------------------
 
 ## Servers and Bugs (Week 3)
-- [String Server](#Part1)
+- [String Server](#part1)
 --------------------------
-- [Bugs](#Part2)
+- [Bugs](#part2)
 -----------------
 
 Step 1
