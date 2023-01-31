@@ -63,7 +63,7 @@ cp {directory}: copy a file.
 cat {directory}: reads the directory's contents and returns it as output.
 
 
-## StringServer
+## Servers and Bugs (Week 3)
 
 
 
