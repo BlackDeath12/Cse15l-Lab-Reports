@@ -88,4 +88,33 @@ For both examples, after the query is given, the StringBuilder and ArrayList are
 
 Part 2
 -------
+Failure-inducing input for buggy program: 
+
+```
+ @Test
+  public void averageWithoutLowestTest4(){
+    double[] input = {5.0,6.0,5.0,5.0};
+    double result = ArrayExamples2.averageWithoutLowest(input);
+    assertEquals(6.0, result, 0.1);
+  } 
+```
+
+Input that doesn't induce a failure for buggy program:
+
+```
+  @Test
+  public void averageWithoutLowestTest4(){
+    double[] input = {1.0,6.0,5.0,5.0};
+    double result = ArrayExamples2.averageWithoutLowest(input);
+    assertEquals(5.3, result, 0.1);
+  } 
+```
+
+Output for failure input:
+![Image](ArrayTestExample1.png)
+
+Output for non-failure input:
+![Image](ArrayTestExample2.png)
+
+
 
