@@ -82,7 +82,8 @@ After the second query is made, the new phrase is appended in the array similarl
 
 ![Image](ServerExample2.png)
 
-For both examples, the method handleRequest is called, along with the equals(), add(), append(), format(), and toString() methods that help comparing, storing, and returning the strings.
+For both examples, the method handleRequest is called, along with the getQuery(), split(), equals(), add(), append(), format(), and toString() methods that help comparing, storing, and returning the strings. The most relevant argument for the handleRequest() method is the url written by the user, which helps the server decide what section of code it will be using. After that, the method .getQuery().split() get the input from the user and split in between "=" for easier management. 
+For both examples, after the query is given, the StringBuilder and ArrayList are updated. The array is given a new item to store and the string is mutated into the collection of all the items inside array using the specified "\n" format.
 
 
 Part 2
