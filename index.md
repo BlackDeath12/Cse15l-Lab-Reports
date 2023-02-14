@@ -251,5 +251,5 @@ beach clubs used by non-oceanfront hotels, and a small marina that is under cons
 ```
 Option "-n" prints the number of the line in which the pattern was found along with the text on the line. 
 
-[Source](https://chat.openai.com/chat)
+For source, click on this [link](https://chat.openai.com/chat)
 
