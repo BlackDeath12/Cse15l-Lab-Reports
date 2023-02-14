@@ -166,7 +166,7 @@ Part 3
 
 I've learned multiple things during week 2 and 3. Firstly, I didn't know how to make a local or external server using java, I've had only used GoogleCloud before. In addition, I didn't know what exactly a query was and how a server could respond to one. Secondly, I've gained a better understanding on how to use JUnit tests and how they can be useful to debugging. 
 
-##Researching Commands (Week 5)
+## Researching Commands (Week 5)
 
 - Command: grep
 
