@@ -15,6 +15,9 @@
 - [Bugs](#part2)
 -----------------
 
+## Researching Commands (Week 5)
+- [grep](#Researching)
+
 Step 1
 ------
 To install VSCode simply go [here](https://code.visualstudio.com/) and follow the website directions. 
