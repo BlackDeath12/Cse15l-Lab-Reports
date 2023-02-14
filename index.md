@@ -166,5 +166,90 @@ Part 3
 
 I've learned multiple things during week 2 and 3. Firstly, I didn't know how to make a local or external server using java, I've had only used GoogleCloud before. In addition, I didn't know what exactly a query was and how a server could respond to one. Secondly, I've gained a better understanding on how to use JUnit tests and how they can be useful to debugging. 
 
+##Researching Commands (Week 5)
 
+Command: grep
+
+"-i"
+----
+
+```
+$ grep -i "Places" Kauffman/*
+
+Kauffman/ch1.txt:The considerations above led to the role of Maxwell’s demon, one of the major places in physics where matter...
+
+```
+
+```
+$ grep "Places" Kauffman/*
+
+...
+
+```
+
+Option "-i" allows the grep command to ignore the difference between upper and lower-cases, which can be seen in the examples above where the same pattern returns different results.
+
+"-r"
+---
+```
+$ grep -r "dinosaur" non-fiction
+
+non-fiction/OUP/Berk/CH4.txt:blossoming of sociodramatic play: 3 to 5 years.  The mid- to late-preschool years are a time of burgeoning capacity for sociodramatic play, especially group pretend. Children incorporate more detail into their play themes and beneﬁt from increasingly varied and ﬂexible props—hand and ﬁnger puppets; dolls with articulated limbs that can be manipulated; doll clothing with buttons, zippers, and other fasteners; more housekeeping accessories, such as high chairs, bassinets, and cooking, serving, and washing equipment; and diverse play animals, including ﬁsh, reptiles, dinosaurs, and exotic species.
+
+```
+```
+$ grep -r "reptile" written_2
+
+written_2/travel_guides/berlitz1/WhatToJamaica.txt:        basking reptiles and native birds that call this place home. Roots,
+written_2/travel_guides/berlitz1/WhereToLosAngeles.txt:        harbors more than 400 different species of animals, birds and reptiles,
+written_2/travel_guides/berlitz1/WhereToMalaysia.txt:        varieties of fungi, 262 species of bird, 50 species of reptiles, and
+```
+Option "-r"tells the command to search for the patter recursively inside the folder, which means it will look up all the data and sub-folders inside the main folder.
+
+"-c"
+---
+```
+$ grep -rc "Lucayans" written_2/
+...
+written_2/travel_guides/berlitz2/Amsterdam-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Amsterdam-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Athens-History.txt:0
+written_2/travel_guides/berlitz2/Athens-Intro.txt:0
+written_2/travel_guides/berlitz2/Athens-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Athens-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Bahamas-History.txt:2
+...
+```
+```
+$ grep -rc "places" written_2/
+
+written_2/non-fiction/OUP/Abernathy/ch1.txt:2
+written_2/non-fiction/OUP/Abernathy/ch14.txt:0
+written_2/non-fiction/OUP/Abernathy/ch15.txt:6
+written_2/non-fiction/OUP/Abernathy/ch2.txt:3
+written_2/non-fiction/OUP/Abernathy/ch3.txt:1
+written_2/non-fiction/OUP/Abernathy/ch6.txt:1
+written_2/non-fiction/OUP/Abernathy/ch7.txt:2
+```
+Option "-c" counts the amount of times the pattern was found inside each file that was looked into. (-r is also being used to look recursively inside each folder).
+
+"-n"
+----
+```
+$ grep -rn "places" written_2/
+written_2/non-fiction/OUP/Abernathy/ch1.txt:16:When Bond Stores had customers lining up around the block to buy suits, “casual wear,” as we know it today, did not exist. Even in the 1960s, men wore suits, ties, and hats to the ballpark, and women were clothed in dresses and millinery...
+
+//line 16
+```
+```
+$ grep -rn "home" written_2/
+
+written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt:136:Chahúe Bay lies between Tangolunda and Santa Cruz bays, and is the next to be slated for development. For now, it is home to a few 
+beach clubs used by non-oceanfront hotels, and a small marina that is under construction. 
+
+//line 136
+```
+Option "-n" prints the number of the line in which the pattern was found along with the text on the line. 
+
+[Source](https://chat.openai.com/chat)
 
