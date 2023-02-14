@@ -168,7 +168,7 @@ I've learned multiple things during week 2 and 3. Firstly, I didn't know how to 
 
 ##Researching Commands (Week 5)
 
-Command: grep
+- Command: grep
 
 "-i"
 ----
