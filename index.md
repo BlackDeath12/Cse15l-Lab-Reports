@@ -265,6 +265,8 @@ step -5: <Ctrl -c> git clone <Ctrl -v (git@github.com:BlackDeath12/lab7.git)> (c
 step -6: cd l <Tab> <enter> (changed directory to lab7/), <Ctrl -c> <Ctrl -v(copied and pasted javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java from notes on computer: compiles java files and junit library)> <enter>, <Ctrl -c> <Ctrl -v(java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests> (runs JUnit tests) <enter>
  
 step -7: nano Lis <Tab> .java (opens file editor for ListExamples.java), <enter> <down>*43 <right>*5 <delete> 2 <Ctrl -o> <enter> <Ctrl -x>
+ 
 step -8: <up-key> <up-key> <enter> (execute command to run tests again)
+ 
 step -9: git add Lis <Tab>.java <enter>, git commit -m "edit" <enter>, git push <enter>
 
