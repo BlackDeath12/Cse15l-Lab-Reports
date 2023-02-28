@@ -258,7 +258,7 @@ For source, click on this [link](https://chat.openai.com/chat)
 
 # Week 7 (Competition)
 
-step -4: <up-key> ("ssh cs15lwi23ahb@ieng6.ucsd.edu" was already in my command history: logs in to remote computer) <enter>
+step -4: '<up-key>' ("ssh cs15lwi23ahb@ieng6.ucsd.edu" was already in my command history: logs in to remote computer) <enter>
  
 step -5: <Ctrl -c> git clone <Ctrl -v (git@github.com:BlackDeath12/lab7.git)> (copied ssh link of repository) <enter>
  
