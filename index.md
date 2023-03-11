@@ -256,6 +256,9 @@ Option "-n" prints the number of the line in which the pattern was found along w
 
 For source, click on this [link](https://chat.openai.com/chat)
 
+
+
+
 # Week 7 (Competition)
 
 step -4: <`up-key`> ("ssh cs15lwi23ahb@ieng6.ucsd.edu" was already in my command history: logs into remote computer) <`enter`>
