@@ -258,22 +258,22 @@ For source, click on this [link](https://chat.openai.com/chat)
 
 # Week 7 (Competition)
 
-step -4: <up-key> ("ssh cs15lwi23ahb@ieng6.ucsd.edu" was already in my command history: logs into remote computer) <enter>
+step -4: <`up-key`> ("ssh cs15lwi23ahb@ieng6.ucsd.edu" was already in my command history: logs into remote computer) <`enter`>
 ![Image](step-4.png)
  
-step -5: <Ctrl -c> git clone <Ctrl -v (git@github.com:BlackDeath12/lab7.git)> (copied ssh link of repository) <enter>
+step -5: <Ctrl -c> git clone <Ctrl -v (git@github.com:BlackDeath12/lab7.git)> (copied ssh link of repository) <`enter`>
 ![Image](step-5.png)
  
-step -6: cd l <Tab> <enter> (changed directory to lab7/), <Ctrl -c> <Ctrl -v(copied and pasted javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java from notes on computer: compiles java files and junit library)> <enter>, <Ctrl -c> <Ctrl -v(java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests> (runs JUnit tests) <enter>
+step -6: cd l <Tab> <enter> (changed directory to lab7/), <Ctrl -c> <Ctrl -v(copied and pasted javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java from notes on computer: compiles java files and junit library)> <`enter`>, <Ctrl -c> <Ctrl -v(java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests> (runs JUnit tests) <`enter`>
 ![Image](step-6.png)
  
-step -7: nano Lis <Tab>.java (opens file editor for ListExamples.java), <enter> <down>*43 <right>*5 <delete> 2 <Ctrl -o> <enter> <Ctrl -x>, <up-key> <up-key> (re-compile tests)
+step -7: nano Lis <Tab>.java (opens file editor for ListExamples.java), <`enter`> <`down`>*43 <`right`>*5 <`delete`> 2 <Ctrl -o> <`enter`> <Ctrl -x>, <`up-key`> <`up-key`> (re-compile tests)
 ![Image](step-7-1.png)
 ![Image](step-7-2.png)
  
-step -8: <up-key> <up-key> <enter> (execute command to run tests again)
+step -8: <`up-key`> <`up-key`> <`enter`> (execute command to run tests again)
 ![Image](step-8.png)
  
-step -9: git add Lis <Tab>.java <enter>, git commit -m "edit" <enter>, git push <enter>
+step -9: git add Lis <Tab>.java <`enter`>, git commit -m "edit" <`enter`>, git push <`enter`>
 ![Image](step-9.png)
 
