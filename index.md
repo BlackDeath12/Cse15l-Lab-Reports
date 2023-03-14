@@ -283,7 +283,13 @@ step -9: git add Lis <`Tab`>.java <`enter`>, git commit -m "edit" <`enter`>, git
 
 # Lab Report 5 
 
-For this last report, I decided to go back to week 7's competition. Even though my best time completing all tasks was about 15 seconds, it still wasn't fast enough to make it into the final round. Therefore, I made a bash script that completes all tasks in a single command in 6.06s. 
+
+For this last report, I've decided to go back to week 7's competition. Even though my best time completing all tasks was about 15 seconds, it still wasn't fast enough to make it into the final round. Therefore, I made a bash script that completes all tasks in a single command in 6.06s. 
+
+Firstly, we need to log in into our ieng6 account by using: ssh cs15lwi___@ieng6.ucsd.edu from the bash terminal. If you have followed week 7's steps, then you'll already have your ssh-key set up and you won't have to type in your password.
+
+Secondly, we run the bash script by typing 'bash cheat1.sh'
+And that's it!!!
 
 ![Image](bashScript.PNG)
 
@@ -291,7 +297,7 @@ The following image shows the contents of cheat1.sh:
 
 ![Image](bash.PNG)
 
-1. The first command this bash script runs is git clone to download the Lab 7 repository from GitHub into ieng6
+1. The first command this bash script runs is git clone to download the Lab 7 repository from GitHub into ieng6 by using the ssh link (This link allows us to use git push without having to go through account verification). 
 2. Then, we do cd lab7 to change directory and make it easier to run the commands necessary to compile JUnit
 3. We compile and run ListExampleTests.java to show that the java file doesn't work as intended initially
 4. After that, we run the sed command which looks for a string and replaces it with another. In this case, I wrote sed -i "43 s/index1/index2" ListExamples.java. The argument in between "" will indicate the program to change index1 to index2 on line 43 of ListExample.java file. The argument -i indicates that the original file will be modified with this new argument.
