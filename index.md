@@ -285,6 +285,6 @@ step -9: git add Lis <`Tab`>.java <`enter`>, git commit -m "edit" <`enter`>, git
 
 For this last report, I decided to go back to week 7's competition. Even though my best time completing all tasks was about 15 seconds, it still wasn't fast enough to make it into the final round. Therefore, I made a bash script that completes all tasks in a single command in 6.06s. 
 
-![Image](bashScript.png)
+![Image](bashScript.PNG)
 
 
