@@ -287,4 +287,16 @@ For this last report, I decided to go back to week 7's competition. Even though 
 
 ![Image](bashScript.PNG)
 
+The following image shows the contents of cheat1.sh:
+
+![Image](bash.PNG)
+
+1. The first command this bash script runs is git clone to download the Lab 7 repository from GitHub into ieng6
+2. Then, we do cd lab7 to change directory and make it easier to run the commands necessary to compile JUnit
+3. We compile and run ListExampleTests.java to show that the java file doesn't work as intended initially
+4. After that, we run the sed command which looks for a string and replaces it with another. In this case, I wrote sed -i "43 s/index1/index2" ListExamples.java. The argument in between "" will indicate the program to change index1 to index2 on line 43 of ListExample.java file. The argument -i indicates that the original file will be modified with this new argument.
+5. Then, we re-compile and re-run ListExamplesTests.java to show the file is now fixed.
+6. Finally, we use git add ListExamples.java to indicate GitHub the file I wanna modified from the original repository, we use git commit -m "message" to save this change on the repository history, and we use git push to upload the changes to GitHub. 
+
+
 
