@@ -43,7 +43,7 @@ Make sure to substitute "zz" with the last three letters of your @ieng username.
 Enter your password when prompted.
 
 (Your username and password can be found in this [link](https://sdacs.ucsd.edu/~icc/index.php))
-You should see a message like this when connection is stablished:
+You should see a message like this when the connection is established:
 
 ![Image](ssh-terminal.png)
 
@@ -81,7 +81,7 @@ Code for the server:
 
 ![Image](StringServerImg.png)
 
-In this first image we enter the if-section of the code that deals with the path "add-messages". After the query is written, the server seperates the string inside the search box, splits it on every "=" sign, and stores the parameters inside an array. After that, the parameters are appendend into a formated string which is later returned as output. 
+In this first image, we enter the if-section of the code that deals with the path "add-messages". After the query is written, the server seperates the string inside the search box, splits it on every "=" sign, and stores the parameters inside an array. After that, the parameters are appended into a formatted string which is later returned as output. 
 
 ![Image](ServerExample1.png)
 
@@ -89,13 +89,13 @@ After the second query is made, the new phrase is appended in the array similarl
 
 ![Image](ServerExample2.png)
 
-For both examples, the method handleRequest is called, along with the getQuery(), split(), equals(), add(), append(), format(), and toString() methods that help comparing, storing, and returning the strings. The most relevant argument for the handleRequest() method is the url written by the user, which helps the server decide what section of code it will be using. After that, the method .getQuery().split() get the input from the user and split in between "=" for easier management. 
+For both examples, the method handleRequest is called, along with the getQuery(), split(), equals(), add(), append(), format(), and toString() methods that help comparing, storing, and returning the strings. The most relevant argument for the handleRequest() method is the URL written by the user, which helps the server decide what section of code it will be using. After that, the method .getQuery().split() get the input from the user and split in between "=" for easier management. 
 For both examples, after the query is given, the StringBuilder and ArrayList are updated. The array is given a new item to store and the string is mutated into the collection of all the items inside array using the specified "\n" format.
 
 
 Part 2
 -------
-Failure-inducing input for buggy program: 
+Failure-inducing input for the buggy program: 
 
 ```
  @Test
@@ -106,7 +106,7 @@ Failure-inducing input for buggy program:
   } 
 ```
 
-Input that doesn't induce a failure for buggy program:
+Input that doesn't induce a failure for the buggy program:
 
 ```
   @Test
